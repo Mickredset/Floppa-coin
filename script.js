@@ -15,7 +15,7 @@ document.getElementById('buyForm').addEventListener('submit', function(e) {
     <p>Вы купили <strong>${amount} FLP</strong>.</p>
     <p>Сумма к оплате: <strong>${totalCost.toLocaleString()} руб.</strong></p>
     <p>Способ оплаты: <strong>${getPaymentName(paymentMethod)}</strong></p>
-    <p>✅ Транзакция имитационно завершена!</p>
+    <p>Transaction completed</p>
   `;
   resultDiv.className = 'success';
   resultDiv.style.display = 'block';
